@@ -21,8 +21,8 @@ Or, in a command line (with nuget.exe in your path):
 
 ## Bower
 
-To install all available modules:
-	bower install angulartics
+1. Install angulartics: `bower install angulartics`
+2. Include analytics modules in index.html: `<script src="/bower_components/angulartics/src/angulartics-ga.js"></script>`
 
 # Full path tracking (for pages without a router)
 Introduced in 0.15.19 - support websites that do not use Angular `routes` or `states` on every page and still want to track full paths.  The modifications lead to the following behavior:
